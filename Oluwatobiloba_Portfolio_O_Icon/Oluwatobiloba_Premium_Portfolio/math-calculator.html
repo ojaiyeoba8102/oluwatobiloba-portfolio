@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Academic portfolio of Jaiyeoba Oluwatobiloba, software engineering student at Miva Open University." name="description">
+  <title>
+   Math mark calculator. | Oluwatobiloba
+  </title>
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <a class="brand" href="index.html">
+    <span class="brand-mark">
+     O.
+    </span>
+    <span>
+     OLUWATOBILOBA
+     <span class="brand-sub">
+      / DIGITAL PORTFOLIO
+     </span>
+    </span>
+   </a>
+   <button aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation" class="menu-toggle" id="menu-toggle">
+    ☰
+   </button>
+   <nav aria-label="Main navigation" id="site-nav">
+    <a class="" href="index.html">
+     Home
+    </a>
+    <a class="" href="about.html">
+     About
+    </a>
+    <a class="" href="projects.html">
+     Projects
+    </a>
+    <a class="" href="planner.html">
+     Planner
+    </a>
+    <a class="" href="contact.html">
+     Contact
+    </a>
+   </nav>
+   <button aria-label="Toggle color theme" class="theme-toggle" id="theme-toggle" title="Toggle color theme">
+    ◐
+   </button>
+  </header>
+  <main id="main">
+   <div class="page-intro">
+    <div class="eyebrow">
+     <span class="eyebrow-dot">
+     </span>
+     PROJECT 01 / LIVE DEMO
+    </div>
+    <h1>
+     Math mark calculator.
+    </h1>
+   </div>
+   <section class="demo-layout">
+    <div class="demo-intro">
+     <img alt="Math calculator concept illustration" src="assets/math-calculator.png">
+     <p>
+      Enter three marks between 0 and 100. The calculator checks the inputs and displays the average.
+     </p>
+     <a class="text-link" href="projects.html">
+      &larr; Back to projects
+     </a>
+    </div>
+    <div class="workspace">
+     <h2>
+      Calculate your average
+     </h2>
+     <form class="stack-form" id="marks-form">
+      <label for="mark-one">
+       First mark
+      </label>
+      <input id="mark-one" max="100" min="0" placeholder="e.g. 80" required step="any" type="number">
+      <label for="mark-two">
+       Second mark
+      </label>
+      <input id="mark-two" max="100" min="0" placeholder="e.g. 75" required step="any" type="number">
+      <label for="mark-three">
+       Third mark
+      </label>
+      <input id="mark-three" max="100" min="0" placeholder="e.g. 90" required step="any" type="number">
+      <button class="btn btn-primary" type="submit">
+       Calculate average &nearrow;
+      </button>
+     </form>
+     <div aria-live="polite" class="result" id="average-result" role="status">
+      Your result will appear here.
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer>
+   <div>
+    <strong>
+     JAIYEOBA OLUWATOBILOBA OLUWATOBILOBA
+    </strong>
+    <p>
+     Student portfolio &middot; Miva Open University
+    </p>
+   </div>
+   <div class="footer-right">
+    Made with HTML, CSS & JavaScript
+    <span>
+     &copy;
+     <span id="year">
+     </span>
+     Oluwatobiloba
+    </span>
+   </div>
+  </footer>
+ </body>
+</html>
